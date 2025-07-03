@@ -5,9 +5,9 @@ import pandas as pd
 from pypmml import Model  
 
 # Ścieżki do plików
-mol2_path = '/home/stas/Documents/pCI50_HeLa/molekula.mol2' 
-sdf_path = '/home/stas/Documents/pCI50_HeLa/molekula.sdf' 
-pmml_path = '/home/stas/Documents/pCI50_HeLa/model.pmml'
+mol2_path = 'path_to_mol2_molecule' 
+sdf_path = 'path_to_temp_sdf' 
+pmml_path = 'path_to_model'
 
 # 0. Konwersja MOL2 → SDF
 result = subprocess.run(
