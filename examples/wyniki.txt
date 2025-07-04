@@ -1,6 +1,6 @@
-MOLECULE:           SMILES:                                                                      pCI50:
-1.                  c1c(ccc(c1)C1C2=C(OC3=C1C(=O)CC(C3)(C)C)CC(CC2=O)(C)C)[N](=O)[O]             2.940858594946786
-2.                  c1cc(cc(c1O)C1C2=C(OC3=C1C(=O)CC(C3)(C)C)CC(CC2=O)(C)C)[N](=O)[O]            3.25674404680833
-3.                  C1(C2=C(OC3=C1C(=O)CC(C3)(C)C)CC(CC2=O)(C)C)c1c(cccc1)F                      3.512300471219442
-4.                  c1(cccc(c1)C1C2=C(OC3=C1C(=O)CC(C3)(C)C)CC(CC2=O)(C)C)F                      3.165315613320052
-5.                  c1c(ccc(c1)C1C2=C(OC3=C1C(=O)CC(C3)(C)C)CC(CC2=O)(C)C)F                      3.336081375724229
+    SMILES:                                                                      pCI50:
+1.  c1(cccc(c1O)C1=c2c(=OC3=C1C=C(C(=O)[CH]3)O)cc(c(c2)O)O)OC                    4.381118145841029
+2.  c1(c(ccc(c1)C1=c2c(=OC3=C1C=C(C(=O)[CH]3)O)cc(c(c2)O)O)O)O                   4.475418719302941
+3.  c1c(c(cc2c1C(=C1C(=O2)[CH]C(=O)C(=C1)O)c1cc(c(cc1)OC)OC)O)O                  5.215988967755589
+4.  c1(c(c(cc(c1)C1=C2C(=Oc3c1cc(c(c3)O)O)[CH]C(=O)C(=C2)O)[N](=O)[O])O)OC       4.385019452445471
+5.  c1c(ccc(c1)C1=C2C(=Oc3c1cc(c(c3)O)O)[CH]C(=O)C(=C2)O)C(F)(F)F                5.626325485448181
