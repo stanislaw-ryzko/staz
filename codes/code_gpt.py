@@ -6,9 +6,9 @@ import pandas as pd
 from pypmml import Model  # type: ignore
 
 # === SETTINGS ===
-mol2_dir = '/home/stas/Documents/pCI50_HeLa/molecules/'  # folder z wieloma .mol2
-pmml_path = '/home/stas/Documents/pCI50_HeLa/model.pmml'
-output_csv = '/home/stas/Documents/pCI50_HeLa/predictions.csv'
+mol2_dir = 'path_to_molecules'  # folder z wieloma .mol2
+pmml_path = 'path_to_model'
+output_csv = 'path_to_output'
 
 # === LOAD PMML MODEL ONCE ===
 if not os.path.exists(pmml_path):
