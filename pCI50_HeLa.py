@@ -66,4 +66,5 @@ predictions = model.predict(input_df)
 # 5. Print prediction result (look for column starting with 'predicted_')
 print()
 for col in predictions.columns:
-    print("Prediction results:", predictions[col].values[0])
+    if col.startswith('predicted_'):
+        print(f"{col}: {predictions[col].values[0]}")
