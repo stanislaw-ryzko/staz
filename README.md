@@ -1,4 +1,4 @@
-This repository contains a small script (`pCI50_HeLa.py`) for predicting activity against the HeLa cell line from molecular descriptors. The PMML model and example molecule file are stored in the `examples` directory.
+This repository contains a small script (`code.py`) for predicting activity against the HeLa cell line from molecular descriptors. The PMML model and example molecule file are stored in the `examples` directory.
 
 The applicability domain of the model covers **xanthene derivatives**.
 ## Requirements
